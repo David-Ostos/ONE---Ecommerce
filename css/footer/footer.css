@@ -1,0 +1,66 @@
+
+.footer{
+    padding: 4rem 0 4rem;
+
+}
+
+.footer__container {
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #EAF2FD;
+    padding: 4rem 0;
+}
+.footer__logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.footer__list {
+    color: #464646;
+    line-height: 2.5;
+}form.container__column {
+    width: 40vw;
+}
+.form__input__nombre {
+    height: 3rem;
+    margin: 1rem 0;
+}
+.form__input__nombre {
+    height: 3rem;
+    margin: 1rem 0;
+}
+.form__input__nombre::placeholder {
+    position: absolute;
+    margin: 0.2rem 0.2rem;
+}
+.input__mensaje {
+    resize: none;
+    height: 6rem;
+    margin-bottom: 1rem
+}
+.input__mensaje::placeholder {
+    position: absolute;
+    margin: 0.2rem 0.2rem;
+}
+.from__btn {
+    width: max-content;
+    padding: 1rem;
+    color: #ffffff;
+    background-color: #2a7ae4;
+    border: none;
+}
+.p__autor {
+    text-align: center;
+    padding-top: 4rem;
+    line-height: 1.5;
+}
+.autor__nombre{
+    color: #2a7ae4;
+    font-weight: 500;
+}
+.copy{
+    color: #2a7ae4;
+    font-size: 1.2rem;
+}

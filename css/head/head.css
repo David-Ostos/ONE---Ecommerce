@@ -1,0 +1,46 @@
+
+.head{
+    margin-top: 2rem;
+    padding: 0 7rem;
+}
+
+.head__container__logo {
+    align-items: center;
+    gap: 1rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.head__logo__icon{
+    color: #2A7AE4;
+}
+.head__logo__nombre b{
+    color: #2A7AE4;
+}
+.container__head{
+    justify-content: space-between;
+}
+.head__busqueda {
+    background-color: #F5F5F5;
+    border-radius: 50px;
+    font-size: 1rem;
+    padding: 0.5rem 7rem 0.5rem 2rem;
+    margin-left: 1rem;
+}
+.head__busqueda::placeholder{
+    color: #a6a6a69c;
+}
+
+.head__boton {
+    padding: 0 4rem;
+    color: #2A7AE4;
+    font-size: 1.3rem;
+    border: 1px solid #2A7AE4;
+    background: #ffffff;
+}
+input.head__busqueda.input {
+    outline: none;
+    border:none;
+}
+
+

@@ -1,0 +1,19 @@
+@media screen and (max-width: 767px) and (min-width: 0px){
+
+    img.head__logo__icon {
+        width: 2rem;
+        gap: 2px;
+    }
+    input.head__busqueda.input {
+        display: none;
+    }
+    header.head {
+        padding: 0 1rem;
+    }
+    .head__logo__nombre {
+        font-size: 1.2rem;
+    }
+    button.head__boton.btn {
+        padding: 0 2rem;
+    }
+}

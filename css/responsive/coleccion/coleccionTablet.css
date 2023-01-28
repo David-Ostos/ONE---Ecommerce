@@ -1,0 +1,15 @@
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+    .coleccion__container {
+    padding: 2rem 2rem;
+}
+.coleccion__tarjeta {
+    padding-bottom: 2rem;
+    width: 22vw;
+    
+}
+.coleccion__container__tarjetas.wrap {
+    overflow-y: scroll;
+    height: 16rem;
+}
+}

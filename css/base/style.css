@@ -1,0 +1,88 @@
+@import url(input.css);
+
+body{
+    scrollbar-width: auto;
+    scrollbar-color: #57c41c transparent;
+}
+
+  /* Chrome, Edge, and Safari */
+  body::-webkit-scrollbar {
+    width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #57c41c;
+    border-radius: 10px;
+    border: 0px solid #ffffff;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+}
+b{
+    font-weight: bold;
+    color: #464646;
+}
+i{
+ font-size: 1.4rem;
+}
+input {
+	border: none;
+	color: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-family: inherit;
+}
+textarea {
+	border: none;
+	color: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-family: inherit;
+}
+.h1{
+    text-align: center;
+
+}
+.container{
+    display: flex;
+}
+.container__column{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+}
+.list{
+    padding-left: 1rem;
+    color:#464646;
+    transition: all 500ms;
+}
+.list:hover{
+    transform: scale(1.1);
+    color: rgb(141, 200, 85);
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn{ 
+    transition: all 500ms;
+  }
+  .btn:hover{
+    transform: scale(1.2);
+  }
+  .ver{
+    color:#2A7AE4;
+    cursor: pointer;
+    transition: all 500ms;
+}
+.ver:hover{
+    transform: scale(1.2);
+}

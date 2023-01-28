@@ -1,0 +1,26 @@
+@media screen and (max-width: 767px) and (min-width: 0px){
+
+    .banner__filtro{
+        background: url(/img/Hero\ \(1\).png) center / cover ;
+    }
+
+    .banner__container {
+        height: 30vh;
+        background: none;
+    }
+    .banner__contenido.container__column {
+        margin-left: 1rem;
+        font-size: 1.5rem;
+        line-height: .5;
+    }
+
+
+    .banner__titulo {
+        font-size: 1.5rem;
+    }
+
+    p.banner__descripcion {
+        font-size: 1.5rem;
+    }
+   
+}

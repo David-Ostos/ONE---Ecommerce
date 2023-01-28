@@ -1,0 +1,30 @@
+.banner{
+    margin-top: 2rem;
+}
+.banner__container{
+    background: #00000033;
+    
+   height: 50vh;
+}
+.banner__filtro{
+    background: url(/img/Hero\ .png) center / cover ;
+}
+
+.banner__contenido {
+    margin-left: 3rem;
+    justify-content: center;
+    padding: 0.2rem;
+    display: flex;
+    border-radius: 19px;
+    font-weight: 700;
+    font-stretch: expanded;
+}
+.banner__titulo {
+    font-size: 3rem;
+    color: #ffffff;
+    padding-bottom: 1rem;
+}
+.banner__descripcion {
+    font-size: 2rem;
+    color: #ffffff;
+}

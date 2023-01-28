@@ -1,0 +1,11 @@
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .footer__container.container {
+        padding: 4rem 2rem;
+
+}
+    .footer__container-1.container {
+        flex-direction: column;
+        gap: 1rem;
+}
+    
+}

@@ -1,0 +1,20 @@
+@media screen and (max-width: 767px) and (min-width: 0px){
+
+
+    .coleccion__container {
+        padding: 2rem 1rem;
+    }
+    .colection__barra.container {
+        font-size: 1rem;
+    }
+    .coleccion__tarjeta.container__column {
+        width: 43vw;
+    }
+    div.coleccion__container__tarjetas.wrap {
+        height: 65vw;
+        gap: 0;
+        justify-content: space-between;
+        }
+  
+
+}

@@ -1,0 +1,41 @@
+.coleccion{
+    margin-top: 2rem;
+}
+
+.coleccion__container {
+    padding: 2rem 7rem;
+}
+.coleccion__container__tarjetas {
+
+    gap: 1%;
+}
+.colection__barra {
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.coleccion__tarjeta {
+    width: 13vw;
+    transition: all 500ms ease;
+}
+.coleccion__tarjeta:hover {
+    transform: scale(1.1);
+}
+img.coleccion__contenido__img {
+    width: 100%;
+}
+.coleccion__container__contenido {
+    line-height: 1.7;
+}
+.coleccion__contenido__precio {
+    font-weight: 600;
+}
+.coleccion__contenido__ver.ver {
+    font-weight: 500;
+}
+.footer__container-1.container {
+    align-items: flex-start;
+    gap: 7rem;
+}

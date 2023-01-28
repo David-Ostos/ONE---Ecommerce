@@ -1,0 +1,13 @@
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    
+    .head {
+        padding: 0px 2rem;
+    }
+    .head__busqueda {
+        padding: 0.5rem 0.5rem;
+    }
+
+    button.head__boton.btn {
+        padding: 0 4rem;
+    }
+}

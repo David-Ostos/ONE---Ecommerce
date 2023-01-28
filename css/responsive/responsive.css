@@ -1,0 +1,15 @@
+@import url(footer/footerTablet.css);
+@import url(footer/footerMobile.css);
+@import url(coleccion/coleccionMobile.css);
+@import url(coleccion/coleccionTablet.css);
+@import url(head/headTablet.css);
+@import url(head/headMobile.css);
+@import url(banner/bannerMobile.css);
+
+@media screen and (max-width:1024px) {
+    .coleccion__container__tarjetas.wrap {
+        overflow-y: scroll;
+        height: 33vw;
+    }  
+}
+
