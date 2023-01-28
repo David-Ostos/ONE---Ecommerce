@@ -9,6 +9,7 @@
     gap: 1rem;
     font-weight: 700;
     font-size: 1.3rem;
+    cursor: pointer;
 }
 
 .head__logo__icon{
@@ -37,6 +38,7 @@
     font-size: 1.3rem;
     border: 1px solid #2A7AE4;
     background: #ffffff;
+    cursor: pointer;
 }
 input.head__busqueda.input {
     outline: none;

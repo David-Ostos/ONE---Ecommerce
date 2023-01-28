@@ -42,3 +42,6 @@ q:before, q:after {
 table {
 	border-spacing: 0;
 }
+a:visited{
+	color: #464646;
+}

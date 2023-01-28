@@ -1,0 +1,31 @@
+.login {
+    display: flex;
+    justify-content: center;
+    padding: 10rem 0;
+}
+
+from.login__form.container__column {
+    width: 21vw;
+    line-height: 4;
+}
+
+.input__login{
+    height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.input__login::placeholder{
+    color: #464646b2;
+}
+
+h1.login__form__titulo {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.login__form__btn{
+    padding: 1rem;
+    color: #ffffff;
+    background-color: #2a7ae4;
+    border: none;
+}

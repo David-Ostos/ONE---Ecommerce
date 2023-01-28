@@ -72,3 +72,7 @@ h1.form__titulo {
     padding-top: 0.7rem;
     font-weight: 700;
 }
+.footer__container-1.container {
+    align-items: flex-start;
+    gap: 7rem;
+}
