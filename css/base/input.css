@@ -1,3 +1,8 @@
 input.input {
     border-bottom: 1px solid #46464660;
+    outline: none;
+}
+textarea.input {
+    border-bottom: 1px solid #46464660;
+    outline: none;
 }

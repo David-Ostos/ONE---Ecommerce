@@ -2,7 +2,7 @@
 
 body{
     scrollbar-width: auto;
-    scrollbar-color: #57c41c transparent;
+    scrollbar-color: #2A7AE4 transparent;
 }
 
   /* Chrome, Edge, and Safari */
@@ -15,7 +15,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #57c41c;
+    background-color: #2A7AE4;
     border-radius: 10px;
     border: 0px solid #ffffff;
 }
@@ -66,7 +66,7 @@ textarea {
 }
 .list:hover{
     transform: scale(1.1);
-    color: rgb(141, 200, 85);
+    color: #2A7AE4;
 }
 .wrap{
     display: flex;

@@ -3,7 +3,10 @@
     padding: 4rem 0 4rem;
 
 }
-
+form{
+    outline: none;
+    border:none;
+}
 .footer__container {
     justify-content: space-around;
     align-items: flex-start;
@@ -63,4 +66,9 @@
 .copy{
     color: #2a7ae4;
     font-size: 1.2rem;
+}
+h1.form__titulo {
+    font-size: 1.5rem;
+    padding-top: 0.7rem;
+    font-weight: 700;
 }
