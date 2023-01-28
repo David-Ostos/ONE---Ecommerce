@@ -1,0 +1,12 @@
+.form__producto__btn{
+    padding: 1rem;
+    color: #ffffff;
+    background-color: #2a7ae4;
+    border: none;
+}
+
+.form__textarea{
+    resize: none;
+    height: 6rem;
+    margin-bottom: 1rem;
+}

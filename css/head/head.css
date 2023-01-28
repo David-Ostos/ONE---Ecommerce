@@ -25,8 +25,9 @@
     background-color: #F5F5F5;
     border-radius: 50px;
     font-size: 1rem;
-    padding: 0.5rem 7rem 0.5rem 2rem;
+    padding: 0.7rem 1rem 0.7rem 1rem;
     margin-left: 1rem;
+    width: 22vw;
 }
 .head__busqueda::placeholder{
     color: #a6a6a69c;

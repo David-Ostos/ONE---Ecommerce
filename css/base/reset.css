@@ -43,5 +43,5 @@ table {
 	border-spacing: 0;
 }
 a:visited{
-	color: #464646;
+	color: inherit;
 }

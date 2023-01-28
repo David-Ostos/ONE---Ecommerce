@@ -86,3 +86,6 @@ textarea {
 .ver:hover{
     transform: scale(1.2);
 }
+.ver:visited{
+    color: #2A7AE4;
+}
