@@ -7,6 +7,9 @@
     input.head__busqueda {
         display: none;
     }
+    i.fa-solid.fa-magnifying-glass.lupa {
+        display: none;
+    }
     header.head {
         padding: 0 1rem;
     }

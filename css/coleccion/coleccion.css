@@ -3,7 +3,7 @@
 }
 
 .coleccion__container {
-    padding: 2rem 7rem;
+    padding: 0rem 7rem;
 }
 .coleccion__container__tarjetas {
 
@@ -19,6 +19,7 @@
 .coleccion__tarjeta {
     width: 13vw;
     transition: all 500ms ease;
+    padding-bottom: 3rem;
 }
 .coleccion__tarjeta:hover {
     transform: scale(1.1);

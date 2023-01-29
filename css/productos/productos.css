@@ -1,0 +1,19 @@
+.coleccion__container.productos.container__column {
+    padding-top: 4rem;
+}
+
+.colection__barra.productos.container {
+    align-items: center;
+}
+
+.btn__agregar-producto{
+    padding: 1rem ;
+    background-color: #2A7AE4;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.coleccion__container__tarjetas.productos.wrap {
+    height: auto;
+}
