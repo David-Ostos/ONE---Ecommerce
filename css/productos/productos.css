@@ -17,3 +17,41 @@
 .coleccion__container__tarjetas.productos.wrap {
     height: auto;
 }
+
+.coleccion__container__img {
+    position: relative;
+    
+}
+img.coleccion__contenido__img {
+    cursor: auto;
+}
+
+.coleccion__tarjeta:hover {
+    transform: scale(1);
+}
+
+.coleccion__contenido__ver{
+
+    display: none;
+}
+
+.coleccion__container__img--icon {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: #f0f0f0;
+    background: #46464650;
+    padding: 0.3rem;
+    border-radius: 8px;
+    display: flex;
+    gap: 0.5rem;
+}
+
+i.fa-solid{
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+i.fa-solid:hover {
+    transform: scale(1.3);
+}
