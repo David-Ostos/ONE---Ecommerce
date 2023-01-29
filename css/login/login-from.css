@@ -14,6 +14,7 @@ from.login__form.container__column {
 h1.login__form__titulo {
     font-size: 1.5rem;
     font-weight: 600;
+    margin-bottom: 2rem;
 }
 
 .login__form__btn{
