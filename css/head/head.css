@@ -28,6 +28,7 @@
     padding: 0.7rem 1rem 0.7rem 1rem;
     margin-left: 1rem;
     width: 22vw;
+    outline: none;
 }
 .head__busqueda::placeholder{
     color: #a6a6a69c;

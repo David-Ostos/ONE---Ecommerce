@@ -6,17 +6,9 @@
 
 from.login__form.container__column {
     width: 21vw;
-    line-height: 4;
 }
 
-.input__login{
-    height: 3rem;
-    margin-bottom: 2rem;
-}
 
-.input__login::placeholder{
-    color: #464646b2;
-}
 
 h1.login__form__titulo {
     font-size: 1.5rem;
@@ -28,4 +20,5 @@ h1.login__form__titulo {
     color: #ffffff;
     background-color: #2a7ae4;
     border: none;
+    margin: 2rem 0;
 }

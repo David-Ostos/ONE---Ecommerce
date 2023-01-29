@@ -4,7 +4,7 @@
         width: 2rem;
         gap: 2px;
     }
-    input.head__busqueda.input {
+    input.head__busqueda {
         display: none;
     }
     header.head {

@@ -1,6 +1,6 @@
 
 .footer{
-    padding: 4rem 0 4rem;
+    padding: 2rem 0 2rem;
 
 }
 form{
@@ -26,18 +26,7 @@ form{
 }form.container__column {
     width: 40vw;
 }
-.form__input__nombre {
-    height: 3rem;
-    margin: 1rem 0;
-}
-.form__input__nombre {
-    height: 3rem;
-    margin: 1rem 0;
-}
-.form__input__nombre::placeholder {
-    position: absolute;
-    margin: 0.2rem 0.2rem;
-}
+
 .input__mensaje {
     resize: none;
     height: 6rem;
@@ -69,7 +58,7 @@ form{
 }
 h1.form__titulo {
     font-size: 1.5rem;
-    padding-top: 0.7rem;
+    padding: 1rem 0;
     font-weight: 700;
 }
 .footer__container-1.container {
