@@ -9,9 +9,10 @@
     }
     .coleccion__tarjeta.container__column {
         width: 43vw;
+        margin-bottom: 2rem;
     }
     div.coleccion__container__tarjetas.wrap {
-        height: 65vw;
+        height: 60vw;
         gap: 0;
         justify-content: space-between;
         }

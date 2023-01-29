@@ -1,5 +1,9 @@
 @media screen and (max-width: 767px) and (min-width: 0px){
 
+    .footer {
+        padding: 0rem 0 2rem;
+    }
+    
     .footer__container.container {
         flex-direction: column;
         align-items: center;

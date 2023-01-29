@@ -1,0 +1,10 @@
+@media screen and (max-width: 767px) and (min-width: 0px){
+
+    .login {
+        padding: 10rem 6rem;
+    }
+    
+    from.login__form.container__column {
+        width: 100%;
+    }
+}
