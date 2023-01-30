@@ -7,6 +7,8 @@
 @import url(banner/bannerMobile.css);
 @import url(login/loginMobile.css);
 @import url(login/loginTablet.css);
+@import url(producto/productoTablet.css);
+@import url(producto/productoMobile.css);
 
 @media screen and (max-width:1024px) {
     .coleccion__container__tarjetas.wrap {

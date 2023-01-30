@@ -1,0 +1,27 @@
+section.producto {
+    padding: 4rem 7rem;
+}
+
+.producto__container.container {
+    gap: 1rem;
+    align-items: center;
+}
+
+.producto__container__contenido {
+    line-height: 1.4;
+    color: #686868;
+}
+
+h1.producto__titulo {
+    font-size: 3rem;
+    font-weight: 500;
+
+}
+.producto__precio {
+    font-weight: 700;
+}
+p.producto__precio {
+    padding: 0 0px 0.5rem 0;
+    font-weight: 700;
+    font-size: 1.1rem;
+}

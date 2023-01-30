@@ -1,0 +1,28 @@
+@media screen and (max-width: 767px) and (min-width: 0px){
+
+    section.producto {
+        padding: 4rem 0;
+    }
+    .producto__container.container {
+        flex-direction: column;
+    }
+
+    .producto__container__contenido {
+        padding: 0 1rem;
+    }
+
+    h1.producto__titulo {
+        font-size: 2rem;
+        
+    }
+
+    p.producto__descripcion {
+        font-size: 14px;
+    }
+    img.img__producto {
+        width: 100vw;
+    }
+    .coleccion__container__tarjetas.producto.wrap {
+        height: auto;
+    }
+}

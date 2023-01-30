@@ -1,0 +1,19 @@
+@media screen and (max-width: 1024px) and (min-width: 768px){
+
+   
+    section.producto {
+        padding: 4rem 2rem;
+    }
+
+    img.img__producto {
+        width: 38vw;
+    }
+    h1.producto__titulo {
+        font-size: 1.8rem;
+    }
+
+    p.producto__descripcion {
+        font-size: 14px;
+    } 
+
+}
