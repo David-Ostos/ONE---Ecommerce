@@ -21,11 +21,26 @@
 .container__head{
     justify-content: space-between;
 }
+input.head__busqueda.input {
+    outline: none;
+    border:none;
+}
+
+.lupa {
+    position: absolute;
+    top: 0.5vw;
+    right: 1vw;
+}
+
+
+.container__busqueda {
+    position: relative;
+}
 .head__busqueda {
     background-color: #F5F5F5;
     border-radius: 50px;
     font-size: 1rem;
-    padding: 0.7rem 1rem 0.7rem 1rem;
+    padding: 0.7rem 3rem 0.7rem 1rem;
     margin-left: 1rem;
     width: 22vw;
     outline: none;
@@ -42,9 +57,3 @@
     background: #ffffff;
     cursor: pointer;
 }
-input.head__busqueda.input {
-    outline: none;
-    border:none;
-}
-
-

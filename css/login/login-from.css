@@ -24,3 +24,6 @@ h1.login__form__titulo {
     border: none;
     margin: 2rem 0;
 }
+.container__busqueda {
+    display: none;
+}

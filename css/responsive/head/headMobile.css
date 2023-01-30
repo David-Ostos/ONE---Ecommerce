@@ -4,10 +4,7 @@
         width: 2rem;
         gap: 2px;
     }
-    input.head__busqueda {
-        display: none;
-    }
-    i.fa-solid.fa-magnifying-glass.lupa {
+    .container__busqueda {
         display: none;
     }
     header.head {
