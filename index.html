@@ -45,7 +45,7 @@
               src="https://i.imgur.com/LV5j67t.png"
             /></a>
 
-          <a href="index.html">
+          <a href="index.html" class="a__logo__nombre">
             <p 
             class="head__logo__nombre">
                <b>Alura</b>Geek
@@ -74,6 +74,7 @@
             <div class="banner__contenido container__column">
               <h1 class="banner__titulo">Los mejores productos</h1>
               <p class="banner__descripcion">Todo para el Gamer.</p>
+              <a href="#consolas"><button class="btn banner__btn">Ver consolas</button></a>
             </div>
           </div>
         </div>
@@ -84,14 +85,18 @@
 
         <!----------------------Star wars----------------------------->
         <div class="coleccion__container container__column">
+
           <div class="colection__barra container">
+
             <p class="coleccion__barra__titulo">Star Wars</p>
             <p class="coleccion__barra__redireccion ver"><a href="productos.html" target="_blank" rel="Productos">
               Ver todo <i class="fa-solid fa-arrow-right"></i>
             </p></a>
+
           </div>
 
-          <div class="coleccion__container__tarjetas wrap">
+         <section class="coleccion__container__tarjetas wrap" data-producto>
+<!-- 
             <div class="coleccion__tarjeta container__column">
               <a href="#"
                 ><img
@@ -174,12 +179,12 @@
                 <p class="coleccion__contenido__precio">$ 60,00</p>
                 <a href="producto.html"><p class="coleccion__contenido__ver ver">Ver producto</p></a>
                 </div>
-            </div>
-          </div>
+            </div>-->
+          </section>
         </div>
 
         <!------------------------consolas--------------------------->
-        <div class="coleccion__container container__column">
+        <div class="coleccion__container container__column" id="consolas">
 
           <div class="colection__barra container">
             <p class="coleccion__barra__titulo">Consolas</p>
@@ -188,7 +193,8 @@
             </p></a>
           </div>
 
-          <div class="coleccion__container__tarjetas wrap">
+          <section class="coleccion__container__tarjetas wrap" data-producto>
+<!--
             <div class="coleccion__tarjeta container__column">
               <a href="#"
                 ><img
@@ -271,8 +277,8 @@
                 <p class="coleccion__contenido__precio">$ 60,00</p>
                 <a href="producto.html"><p class="coleccion__contenido__ver ver">Ver producto</p></a>
                 </div>
-            </div>
-          </div>
+            </div>-->
+          </section>
         </div>
 
         <!---------------------Diversos---------------------------------->
@@ -285,7 +291,8 @@
             </p></a>
           </div>
 
-          <div class="coleccion__container__tarjetas wrap">
+          <section class="coleccion__container__tarjetas wrap " data-producto>
+<!--
             <div class="coleccion__tarjeta container__column">
               <a href="#"
                 ><img
@@ -368,8 +375,8 @@
                 <p class="coleccion__contenido__precio">$ 60,00</p>
                 <a href="producto.html"><p class="coleccion__contenido__ver ver">Ver producto</p></a>
                 </div>
-            </div>
-          </div>
+            </div>-->
+          </section>
         </div>
       </section>
 
@@ -422,6 +429,8 @@
                   placeholder="Nombre"
                   name="nombre"
                   data-tipo-nombre
+                  maxlength="40"
+                  required
                   >
                   <label 
                   class="input-label" 
@@ -437,6 +446,8 @@
                   placeholder="Escribe tu mensaje"
                   name="mensaje"
                   data-tipo-mensaje
+                  maxlength="120"
+                  required
                   ></textarea>
                 <label 
                 class="textarea-label"
@@ -455,5 +466,6 @@
   </footer>
 
     <!--Scripts-->
+    <script type="module" src="service/producto/prducto-service.js"></script>
   </body>
 </html>

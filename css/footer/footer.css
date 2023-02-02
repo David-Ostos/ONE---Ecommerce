@@ -1,7 +1,6 @@
 
 .footer{
     padding: 2rem 0 2rem;
-
 }
 form{
     outline: none;
@@ -25,6 +24,9 @@ form{
     line-height: 2.5;
 }form.container__column {
     width: 40vw;
+}
+.form__input__nombre {
+    border-bottom: 1px solid #46464660;
 }
 
 .input__mensaje {

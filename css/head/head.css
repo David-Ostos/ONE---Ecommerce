@@ -15,8 +15,18 @@
 .head__logo__icon{
     color: #2A7AE4;
 }
+a.a__logo__nombre {
+    color: #464646;
+}
 .head__logo__nombre b{
     color: #2A7AE4;
+}
+.head__logo__nombre:visited{
+    color: #464646;
+}
+
+.a__logo__nombre:visited{
+    color: #464646;
 }
 .container__head{
     justify-content: space-between;
@@ -44,6 +54,7 @@ input.head__busqueda.input {
     margin-left: 1rem;
     width: 22vw;
     outline: none;
+    border: none;
 }
 .head__busqueda::placeholder{
     color: #a6a6a69c;

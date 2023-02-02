@@ -3,6 +3,14 @@
     justify-content: center;
     padding: 10rem 0;
 }
+.agregar__form__titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 3rem;
+}
+.input__form {
+    border-bottom: 1px solid #46464660;
+}
 
 .form__producto__btn{
     padding: 1rem;
@@ -12,4 +20,46 @@
 }
 button.head__boton.btn {
     padding: 1rem 2rem;
+}
+
+.input-container.input__file__container.container {
+    display: flex;
+    flex-direction: row;
+    height: 8rem;
+}
+
+input#url {
+    height: auto;
+    border: none;
+}
+
+.input__file::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+
+  .input__file::before {
+    background-image: url(../../img/image.png);
+    content: 'Arrastre una imagen ';
+    padding: 2.7rem 2rem;
+    cursor: pointer;
+    font-size: 13pt;
+    border: 2px dashed #68686880;
+    position: relative;
+    color: #9a9a9a;
+    top: 1.5rem;
+    background: #7c78782e;
+}
+
+input.input__buscar__pc::before {
+    content: 'Seleccione la imagen desde la pc';
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 13pt;
+    color: #2a7ae4;
+    background: #ffffff;
+    position: relative;
+    padding: 0.5rem 0.5rem;
+    top: 1.5rem;
+    border: 1px solid #2a7ae4;
+    margin-right: 1rem;
 }

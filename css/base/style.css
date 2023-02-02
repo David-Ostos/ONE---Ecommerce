@@ -31,7 +31,7 @@ b{
 i{
  font-size: 1.4rem;
 }
-input {
+.input {
 	border: none;
 	color: inherit;
 	font-size: inherit;
@@ -88,4 +88,7 @@ textarea {
 }
 .ver:visited{
     color: #2A7AE4;
+}
+a:visited{
+    color: unset;
 }

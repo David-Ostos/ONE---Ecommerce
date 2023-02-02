@@ -28,3 +28,12 @@
     font-size: 2rem;
     color: #ffffff;
 }
+button.btn.banner__btn {
+    width: 8rem;
+    height: 4rem;
+    background: #2A7AE4;
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
