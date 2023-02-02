@@ -2,7 +2,7 @@
   "name": "one---ecommerce",
   "version": "1.0.0",
   "description": "",
-  "main": "./js/server/server.js",
+  "main": "./server.js",
   "scripts": {
     "start": "node server.js"
   }, 
@@ -15,7 +15,7 @@
   },
   "author": "David Ostos",
   "license": "ISC",
-  "dependencies": {
+    "dependencies": {
     "json-server": "^0.17.0"
   },
   "bugs": {
