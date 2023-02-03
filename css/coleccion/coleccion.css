@@ -19,13 +19,14 @@
 .coleccion__tarjeta {
     width: 13vw;
     transition: all 500ms ease;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 .coleccion__tarjeta:hover {
     transform: scale(1.1);
 }
 img.coleccion__contenido__img {
-    width: 100%;
+    width: 13vw;
+    height: 13vw;
 }
 .coleccion__container__contenido {
     line-height: 1.7;

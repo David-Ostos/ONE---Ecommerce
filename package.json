@@ -2,22 +2,16 @@
   "name": "one---ecommerce",
   "version": "1.0.0",
   "description": "",
-  "main": "./server.js",
+  "main": "/controllers/productos-controller.js",
   "scripts": {
-    "start": "node server.js"
-  }, 
-  "keywords": [
-    "json-server,heroku, node, REST API"
-  ],
+    "server": "json-server --watch db.json"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/David-Ostos/ONE---Ecommerce.git"
   },
   "author": "David Ostos",
   "license": "ISC",
-    "dependencies": {
-    "json-server": "^0.17.0"
-  },
   "bugs": {
     "url": "https://github.com/David-Ostos/ONE---Ecommerce/issues"
   },
