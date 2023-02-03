@@ -72,7 +72,7 @@
 
           <div class="agregar-producto">
           
-              <form class="formulario form container__column">
+              <form class="formulario form container__column" data-form>
 
                 <legend class="form-legend">
 
@@ -88,27 +88,20 @@
                       name="url"
                       id="url"
                       placeholder="URL de imagen"
-                      required
-                      data-tipo-url
+                      <!--required
+                      data-url
                       
                       >
                       
                       <input 
                       type="file" 
                       class="input input__form input__file input__buscar__pc"
-                      name="url"
+                      name="url_buscar"
                       id="url"
                       placeholder="URL de imagen"
-                      required
-                      data-tipo-url
-                      
-                      >
+                      <!--required
+                      data-url>
 
-                    <!--<label 
-                    for="url" 
-                    class="input-label"
-                    >URL de imagen</label>
-                    -->
                   </div>
 
                   <div class="input-container">
@@ -119,8 +112,8 @@
                       name="categoria"
                       id="categoria"
                       placeholder="Categoria"
-                      required
-                      data-tipo-categoria
+                      <!--required
+                      data-categoria
                       >
                       
                     <label 
@@ -138,8 +131,8 @@
                       name="nombreProducto"
                       id="nombreProducto"
                       placeholder="Nombre del producto"
-                      required
-                      data-tipo-nombreProducto
+                      <!--required
+                      data-nombreProducto
                       >
                       
                     <label 
@@ -157,8 +150,8 @@
                       name="precio"
                       id="precio"
                       placeholder="Precio del producto"
-                      required
-                      data-tipo-precio
+                      <!--required
+                      data-precio
                       >
                       
                     <label 
@@ -175,7 +168,7 @@
                         name="descripcion" 
                         id="productoDescripcion"
                         placeholder="Descripción del producto"
-                        data-tipo-descripcionProducto
+                        data-descripcionProducto
                     ></textarea>
                     <label 
                       class="textarea-label"
@@ -236,7 +229,7 @@
                     class="input form__input__nombre" 
                     placeholder="Nombre"
                     name="nombre"
-                    data-tipo-nombre
+                    data-nombre
                     >
                     <label 
                     class="input-label" 
@@ -251,7 +244,7 @@
                     class="input input__mensaje textarea" 
                     placeholder="Escribe tu mensaje"
                     name="mensaje"
-                    data-tipo-mensaje
+                    data-mensaje
                     ></textarea>
                   <label 
                   class="textarea-label"
@@ -268,6 +261,7 @@
           <p class="p__autor"><b class="copy"">&copy;</b> Desarrollado por <a target="_blank" href="https://davidostos.co/" class="autor__nombre">David Ostos</a> <br> 2023</p>
         </div>
     </footer>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="controllers/agg-productos-controller.js" ></script>
 </body>
 </html>

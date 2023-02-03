@@ -92,3 +92,9 @@ textarea {
 a:visited{
     color: unset;
 }
+.swal-overlay {
+    background-color: #2a7be467;
+  }
+  .swal-text{
+    font-size: 1.1rem;
+  }

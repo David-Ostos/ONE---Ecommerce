@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar productos</title>
+
+    <!--favicon-->
+    <link rel="icon" type="image/png" href="https://i.imgur.com/LV5j67t.png">
+
+    <!--fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+     <!--archivos css-->
+     <link rel="stylesheet" href="css/base/reset.css" />
+     <link rel="stylesheet" href="css/base/style.css" />
+     <link rel="stylesheet" href="css/head/head.css" />
+     <link rel="stylesheet" href="css/footer/footer.css" />
+     <link rel="stylesheet" href="css/responsive/responsive.css" />
+     <link rel="stylesheet" href="css/agregar-productos/agregar-productos.css">
+     <link rel="stylesheet" href="css/registroCompletado/registro-completado-producto.css">
+ 
+
+       <!--Icon-->
+       <script
+       src="https://kit.fontawesome.com/29bbc9f2d3.js"
+       crossorigin="anonymous"
+     ></script>
+</head>
+<body>
+
+    <!--Cabecera-->
+    <header class="head">
+      <div class="container__head container">
+        <div class="head__container__logo container">
+
+          <a href="index.html" target="_blank" rel="home"><img
+              class="head__logo__icon"
+              alt="logo"
+              src="https://i.imgur.com/LV5j67t.png"
+            /></a>
+
+          <a href="index.html" class="a__logo__nombre">
+            <p 
+            class="head__logo__nombre">
+               <b>Alura</b>Geek
+            </p> 
+          </a>
+          <div class="container__busqueda">
+            <input
+            type="search"
+            class="head__busqueda"
+            placeholder="¿Que deseas buscar?"
+          />
+          <i class="fa-solid fa-magnifying-glass lupa"></i>
+
+          </div>
+        </div>
+
+        <a href="productos.html"><button class="head__boton btn">Menú administrador</button></a>
+      </div>
+    </header>
+
+    <main class="container flex flex--column flex--center">
+        <section class="register-card card">
+          <span class="register-card__icon-complete"></span>
+          <h1 class="register-card__title card__title">¡Registro completado!</h1>
+          <a href="./index.html" class="button">Ver productos</a>
+        </section>
+      </main>
+
+<footer class="footer">
+    <div class="footer__container container">
+      <div class="footer__container-1 container">
+        <div class="footer__logo ">
+          <img
+              class="footer__logo__icon"
+              alt="logo"
+              src="https://i.imgur.com/LV5j67t.png"
+            />
+            <p class="head__logo__nombre"><b>Alura</b>Geek</p>
+      </div>
+
+      <ul class="footer__nav">
+      <a href="#">
+          <li class="footer__list">Quienes somos</li>
+      </a>
+      <a href="#">
+          <li class="footer__list">Politica de privacidad</li>
+      </a>
+      <a href="#">
+          <li class="footer__list">Programa de fidelidad</li>
+      </a>
+      <a href="#">
+          <li class="footer__list">Nuestra Tienda</li>
+      </a>
+      <a href="#">
+          <li class="footer__list">Quieres ser parte de la franquicia</li>
+      </a>
+      <a href="#">
+          <li class="footer__list">Anúncie aquí</li>
+      </a>
+      </ul>
+
+      </div>
+        
+        <div class="footer_form">
+          <form action="" class="from container__column">
+            
+            <h1 class="form__titulo">Hable con nosotros</h1>
+            <div class="input-container">
+              <input 
+                type="text" 
+                class="input form__input__nombre" 
+                placeholder="Nombre"
+                name="nombre"
+                data-nombre
+                >
+                <label 
+                class="input-label" 
+                for="nombre"
+                >Nombre</label>
+            </div>
+
+            <div class="textarea-container">
+            
+              <textarea 
+                type="text" 
+                class="input input__mensaje textarea" 
+                placeholder="Escribe tu mensaje"
+                name="mensaje"
+                data-mensaje
+                ></textarea>
+              <label 
+              class="textarea-label"
+              for="mensaje"
+              >Escribe tu mensaje</label>
+            </div>
+
+            <button class="btn from__btn">Enviar mensaje</button>
+          </form>
+
+        </div>
+    </div>
+    <div class="autor">
+      <p class="p__autor"><b class="copy"">&copy;</b> Desarrollado por <a target="_blank" href="https://davidostos.co/" class="autor__nombre">David Ostos</a> <br> 2023</p>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="module" src="controllers/agg-productos-controller.js" ></script>
+</body>
+</html>

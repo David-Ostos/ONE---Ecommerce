@@ -1,30 +1,31 @@
 import { productosServices } from "../js/producto/prducto-service.js";
 
-const nuevoProducto = (name,price,imageUrl,id)=>{
+//alert de espera por el servidor
+swal("Bienvenido",
+ "Si no aparece el contenido espera unos segundos que el servidor responda. gracias por su visita",{
+    icon: "info",
+    timer: 10000
+});
+
+
+const nuevoProducto = (name,price,imageUrl)=>{
 
     const card = document.createElement("div");
 
     const contenido = `
-    <div class="coleccion__container__img">
-    <a href="#"
-      ><img
-        src="${imageUrl}"
-        alt="taza-strom"
-        class="coleccion__contenido__img"
-    /></a>
-    <div class="coleccion__container__img--icon">
-      <i class="fa-solid fa-pen edit"></i>
-      <i class="fa-solid fa-trash delete"></i>
-    </div>
-    
-  </div>
+        <a href="#">
+            <img
+                src="${imageUrl}"
+                alt=""
+                class="coleccion__contenido__img"
+            />
+        </a>
         <div class="coleccion__container__contenido">
             <p class="coleccion__contenido__titulo">${name}</p>
             <p class="coleccion__contenido__precio">$ ${price}</p>
             <a href="producto.html">
                 <p class="coleccion__contenido__ver ver">Ver producto</p>
             </a>
-            <p class="coleccion__contenido__id">#${id}</p>
         </div>
     `;
     card.innerHTML = contenido
@@ -33,14 +34,13 @@ const nuevoProducto = (name,price,imageUrl,id)=>{
     return card;
 }  
 
-const productoStar = document.querySelector('[data-productos]');
+const producto = document.querySelector('[data-producto-starWars]');
 const render = async () => {
 
     try {
         const listaProductos = await productosServices.listaProductos();
-        console.log(listaProductos);
         listaProductos.forEach(element => {
-            productoStar.appendChild(nuevoProducto(element.name,element.price,element.imageUrl,element.id))
+            producto.appendChild(nuevoProducto(element.name,element.price,element.imageUrl))
         });
     } catch (e) {
         console.log(e);
