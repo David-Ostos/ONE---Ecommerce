@@ -9,10 +9,20 @@ const agregarProducto = (imageUrl, section,name, price,description) =>{
             "Content-Type": "application/json"
         },
         body: JSON.stringify({imageUrl,section, name, price, description, id: uuid.v4()})
+    });
+};
+
+const deleteProducto = (id) => {
+    console.log("Eliminar a ---->" , id);
+    return fetch(`https://bitter-rare-plaster.glitch.me/producto/${id}`,{
+        method: 'DELETE',
+
     })
 }
 
+
 export const productosServices = {
     listaProductos,
-    agregarProducto 
+    agregarProducto,
+    deleteProducto
 } 

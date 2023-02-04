@@ -1,18 +1,24 @@
 h1.card__title.register-card__title {
     font-size: 3rem;
     font-weight: 700;
-    color: #2a7ae4;
 }
 
 section.register-card.card {
     margin: auto;
-    padding: 28vh 0;
+    padding: 4rem 3rem;
     line-height: 2;
+    border-radius: 22px;
+    box-shadow: 0px 2px 26px -5px rgba(42,74,199,1);
+    background: #2a4ac729;
 }
-.button {
-    width: 100%;
+a.button.btn.from__btn {
+    width: fit-content;
     display: block;
     text-align: end;
     font-size: 2rem;
-    font-weight: 800;
+    color: #ffffff;
+    font-weight: 700;
+}
+main.container {
+    padding: 17vh 0;
 }

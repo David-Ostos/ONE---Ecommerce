@@ -98,3 +98,7 @@ a:visited{
   .swal-text{
     font-size: 1.1rem;
   }
+  .flex--center{
+    justify-content: center;
+    align-items: center;
+  }
