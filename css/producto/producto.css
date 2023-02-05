@@ -1,4 +1,4 @@
-section.producto {
+.producto {
     padding: 4rem 7rem;
 }
 
@@ -24,4 +24,9 @@ p.producto__precio {
     padding: 0 0px 0.5rem 0;
     font-weight: 700;
     font-size: 1.1rem;
+}
+img.img__producto {
+    width: 40vw;
+    height: 40vw;
+    object-fit: cover;
 }

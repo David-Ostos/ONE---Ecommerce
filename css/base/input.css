@@ -115,7 +115,7 @@ textarea.input {
   }
   
   textarea#productoDescripcion {
-    padding: 5rem 0;
+    height: 7rem;
     overflow: hidden;
 }
 

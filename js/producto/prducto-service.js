@@ -19,10 +19,28 @@ const deleteProducto = (id) => {
 
     })
 }
+const detalleProducto =  (id) => fetch(`https://bitter-rare-plaster.glitch.me/producto/${id}`).then(response => response.json());
+
+
+const actualizarProducto = ( imageUrl, section,name, price,description,id) =>{
+    return fetch(`https://bitter-rare-plaster.glitch.me/producto/${id}`, {
+        method: "PUT",
+        headers: {
+            "Content-type": "application/json"
+        },
+        body : JSON.stringify({imageUrl, section,name, price,description,id})
+    })
+    .then(response => response)
+    .catch(err => console.error(err));
+}
+
 
 
 export const productosServices = {
     listaProductos,
     agregarProducto,
-    deleteProducto
+    deleteProducto,
+    detalleProducto,
+    actualizarProducto,
+   
 } 

@@ -2,7 +2,7 @@ export class Usuario{
 
  
         #email = "login@gmail.com";
-        #password = "Alura1324";
+        #password = "Alura1";
         email1 = "";
         password1 =  "";
 

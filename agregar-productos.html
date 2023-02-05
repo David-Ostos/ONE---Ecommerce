@@ -72,7 +72,8 @@
 
           <div class="agregar-producto">
           
-              <form class="formulario form container__column" data-form>
+              <form class="formulario form container__column" method="post"
+               enctype="multipart/form-data" data-form>
 
                 <legend class="form-legend">
 
@@ -261,7 +262,14 @@
           <p class="p__autor"><b class="copy"">&copy;</b> Desarrollado por <a  href="https://davidostos.co/" class="autor__nombre">David Ostos</a> <br> 2023</p>
         </div>
     </footer>
+
+    <!--alert Mod-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      
+    <!--uuid-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!--controllers-->
     <script type="module" src="controllers/agg-productos-controller.js" ></script>
 </body>
 </html>

@@ -1,5 +1,11 @@
 import { productosServices } from "../js/producto/prducto-service.js";
 
+swal("Bienvenido a la seccion productos",
+ "Aqui puedes eliminar y editar los productos, y en 'Agregar producto' puedes agregar un nuevo producto",{
+    icon: "warning",
+    timer: 10000
+});
+
 /* funcion para agregar contenido */
 const nuevoProducto = (name, price, imageUrl, id) => {
   const card = document.createElement("div");
@@ -20,7 +26,7 @@ const nuevoProducto = (name, price, imageUrl, id) => {
         <div class="coleccion__container__contenido">
             <p class="coleccion__contenido__titulo">${name}</p>
             <p class="coleccion__contenido__precio">$ ${price}</p>
-            <a href="producto.html?${id}">
+            <a href="producto.html?id=${id}">
                 <p class="coleccion__contenido__ver ver">Ver producto</p>
             </a>
             <p class="coleccion__contenido__id">#${id}</p>
@@ -31,8 +37,8 @@ const nuevoProducto = (name, price, imageUrl, id) => {
   card.classList.add("coleccion__tarjeta");
   card.classList.add("container__column");
 
-  const btn = card.querySelector("[data-delete]");
-  btn.addEventListener("click", () => {
+  const btnDel = card.querySelector("[data-delete]");
+  btnDel.addEventListener("click", () => {
     productosServices
       .deleteProducto(id)
       .then((response) => {
@@ -42,6 +48,13 @@ const nuevoProducto = (name, price, imageUrl, id) => {
       .catch((err) => 
       alert("ocurrio un error, el error fue: " + err));
   });
+
+  const btnEdit = card.querySelector("[data-edit]");
+
+  btnEdit.addEventListener("click", () =>{
+    window.location.href = (`/editProducto.html?id=${id}`)
+  })
+
 
   return card;
 };
@@ -63,23 +76,27 @@ const render = async () => {
 
 render();
 
-/* funcion para eliminar */
+/* funcion para eliminar para elementos fijos*/
 
 const btnDelete = document.querySelectorAll(".delete");
-console.log(btnDelete);
 
 btnDelete.forEach((e) => {
   e.addEventListener("click", () => {
     const divIcon = e.parentElement.parentElement.parentElement;
-    // const divImg = divIcon.parentElement.parentElement;
-    const casiID = divIcon.lastElementChild.querySelector(
-      ".coleccion__contenido__id"
-    );
-    console.log(casiID.innerHTML);
-    // console.log(divIcon.getElementsByClassName("coleccion__container__contenido"));
+    divIcon.remove();
   });
 });
 
-const deleteProducto = (id) => {
-  console.log("elimina a: " + id);
-};
+/* fincion de editar elementos fijos*/
+const btnEd = document.querySelectorAll(".edit");
+
+
+btnEd.forEach((e) => {
+  e.addEventListener("click", () => {
+    const divIcon = e.parentElement.parentElement.parentElement;
+    const id = divIcon.querySelector(".coleccion__container__contenido").querySelector((".coleccion__contenido__id")).innerText
+    
+    window.location.href = `/editProducto.html?id=${id}`
+  });
+});
+

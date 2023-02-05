@@ -23,7 +23,7 @@ const nuevoProducto = (name,price,imageUrl,id)=>{
         <div class="coleccion__container__contenido">
             <p class="coleccion__contenido__titulo">${name}</p>
             <p class="coleccion__contenido__precio">$ ${price}</p>
-            <a href="producto.html?${id}">
+            <a href="producto.html?id=${id}">
                 <p class="coleccion__contenido__ver ver">Ver producto</p>
             </a>
         </div>
