@@ -25,8 +25,11 @@ const imagenesSW = [
 
 ]
 const aleatorio = (e) => {
+    
     return (Math.floor(Math.random() * e))
 }
+
+console.log(aleatorio())
 
 formulario.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -38,6 +41,7 @@ formulario.addEventListener("submit", (event) => {
     const price = document.querySelector("[data-precio]").value;
     const description = document.querySelector("[data-descripcionProducto]").value; 
 
+    console.log(imageUrl)
 
     productosServices.agregarProducto(imageUrl, section, name, price, description).then(resoponse => {
         window.location.href = "/registroProductoCompletado.html"

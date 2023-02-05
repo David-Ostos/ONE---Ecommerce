@@ -55,3 +55,6 @@ i.fa-solid{
 i.fa-solid:hover {
     transform: scale(1.3);
 }
+i.editFijo {
+    display: none;
+}

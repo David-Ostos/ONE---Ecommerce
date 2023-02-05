@@ -3,7 +3,7 @@ import { productosServices } from "../js/producto/prducto-service.js";
 const formulario = document.querySelector("[data-form");
 
         // esta funcion es para obtener la informacion
-const obtenerInformacion = () =>{
+const  obtenerInformacion = async () =>{
 
         //constante para llamar la url y el ide de la url 
     const url = new URL(window.location);
@@ -26,14 +26,14 @@ const obtenerInformacion = () =>{
 
     
         //funcion que se dedica a obtener los resultados enviado spor la url y mostrarla en los campos del formulario
-    productosServices.detalleProducto(id).then(producto =>{
+        const producto = await productosServices.detalleProducto(id) 
  
         imageUrl.file = "https://i.imgur.com/B2fcKcL.jpg";
         section.value = producto.section;
         name.value = producto.name;
         price.value = producto.price;
         description.value = producto.description;
-    });
+   console.log(producto);
 }
 
 obtenerInformacion();
