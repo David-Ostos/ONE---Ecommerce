@@ -10,11 +10,11 @@ const  obtenerInformacion = async () =>{
     const id = url.searchParams.get("id");
 
     console.log(id);
-    if(id)
             // esta validacion es para no tener id = "null"
     if(id == null){
         window.location.href = "/error.html"
     }
+
 
                 //variables para obtener las tags del formulario
     const imageUrl = document.querySelector("[data-url]");
@@ -33,7 +33,8 @@ const  obtenerInformacion = async () =>{
         name.value = producto.name;
         price.value = producto.price;
         description.value = producto.description;
-   console.log(producto);
+
+        console.log(id);
 }
 
 obtenerInformacion();

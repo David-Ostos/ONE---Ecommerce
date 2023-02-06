@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agregar productos</title>
 
-    <!--favicon-->
+    favicon-->
     <link rel="icon" type="image/png" href="https://i.imgur.com/LV5j67t.png">
 
-    <!--fuentes-->
+    fuentes-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,16 +17,16 @@
       rel="stylesheet"
     />
 
-     <!--archivos css-->
+      archivos css-->
      <link rel="stylesheet" href="css/base/reset.css" />
      <link rel="stylesheet" href="css/base/style.css" />
      <link rel="stylesheet" href="css/head/head.css" />
      <link rel="stylesheet" href="css/footer/footer.css" />
-     <link rel="stylesheet" href="css/responsive/responsive.css" />
      <link rel="stylesheet" href="css/agregar-productos/agregar-productos.css">
+     <link rel="stylesheet" href="css/responsive/responsive.css" />
  
 
-       <!--Icon-->
+        Icon-->
        <script
        src="https://kit.fontawesome.com/29bbc9f2d3.js"
        crossorigin="anonymous"
@@ -34,7 +34,7 @@
 </head>
 <body>
 
-    <!--Cabecera-->
+    Cabecera-->
     <header class="head">
       <div class="container__head container">
         <div class="head__container__logo container">
@@ -89,8 +89,9 @@
                       name="url"
                       id="url"
                       placeholder="URL de imagen"
-                      <!--required
+                      
                       data-url
+                      
                       
                       >
                       
@@ -100,7 +101,7 @@
                       name="url_buscar"
                       id="url"
                       placeholder="URL de imagen"
-                      <!--required
+                      
                       data-url>
 
                   </div>
@@ -113,8 +114,9 @@
                       name="categoria"
                       id="categoria"
                       placeholder="Categoria"
-                      <!--required
+                      required
                       data-categoria
+
                       >
                       
                     <label 
@@ -132,8 +134,9 @@
                       name="nombreProducto"
                       id="nombreProducto"
                       placeholder="Nombre del producto"
-                      <!--required
+                      required
                       data-nombreProducto
+                      maxlength="20"
                       >
                       
                     <label 
@@ -146,12 +149,12 @@
                   <div class="input-container">
 
                     <input 
-                      type="text" 
+                      type="number" 
                       class="input input__form"
                       name="precio"
                       id="precio"
                       placeholder="Precio del producto"
-                      <!--required
+                      required
                       data-precio
                       >
                       
@@ -170,6 +173,8 @@
                         id="productoDescripcion"
                         placeholder="Descripción del producto"
                         data-descripcionProducto
+                        required
+                        maxlength="150"
                     ></textarea>
                     <label 
                       class="textarea-label"
@@ -263,13 +268,13 @@
         </div>
     </footer>
 
-    <!--alert Mod-->
+    alert Mod-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       
-    <!--uuid-->
+    uuid-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
-    <!--controllers-->
+    controllers-->
     <script type="module" src="controllers/agg-productos-controller.js" ></script>
 </body>
 </html>

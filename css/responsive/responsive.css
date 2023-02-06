@@ -9,5 +9,8 @@
 @import url(login/loginTablet.css);
 @import url(producto/productoTablet.css);
 @import url(producto/productoMobile.css);
+@import url(registrocompletado/registroCompletado-Mobile.css);
+@import url(agregarProducto/agregarProductoMobile.css);
+@import url(error/errorMobile.css);
 
 

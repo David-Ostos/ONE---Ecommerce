@@ -1,0 +1,19 @@
+@media screen and (max-width: 767px) and (min-width: 0px){
+
+    button.head__boton.btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+    h1.register-card__title.card__title {
+        font-size: 1rem;
+    }
+    
+    section.register-card.card {
+        padding: 2rem;
+    }
+    
+    a.button.btn.from__btn {
+        font-size: 1rem;
+    }
+}

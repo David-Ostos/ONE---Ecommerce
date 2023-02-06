@@ -1,0 +1,24 @@
+@media screen and (max-width: 767px) and (min-width: 0px){
+    
+    .input-container.input__file__container.container {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    input#url {
+        height: 7rem;
+    }
+
+    .input__file::before {
+        margin-right: 100vw;
+    }
+
+    input.input__buscar__pc::before {
+        margin-right: 100vw;
+    }
+
+    textarea#productoDescripcion {
+        overflow: scroll;
+    }
+
+}
